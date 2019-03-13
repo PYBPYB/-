@@ -5,7 +5,11 @@
     <bookmark url="file://$PROJECT_DIR$/apps/order/views.py" line="152" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a012f9e-1e3c-46db-ae8e-6e9bff18c805" name="Default Changelist" comment="" />
+    <list default="true" id="4a012f9e-1e3c-46db-ae8e-6e9bff18c805" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +24,7 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="15" />
-          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="6" />
           <entry key="project.open.time.15" value="3" />
@@ -28,7 +32,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="47" />
+          <entry key="project.opened" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,7 +40,7 @@
           <entry key="PKG-INFO" value="3" />
           <entry key="conf" value="7" />
           <entry key="html" value="384" />
-          <entry key="ini" value="6" />
+          <entry key="ini" value="7" />
           <entry key="log" value="10" />
           <entry key="pem" value="8" />
           <entry key="pid" value="1" />
@@ -51,7 +55,7 @@
         <counts>
           <entry key="HTML" value="384" />
           <entry key="Image" value="4" />
-          <entry key="Ini" value="6" />
+          <entry key="Ini" value="7" />
           <entry key="Log" value="9" />
           <entry key="PLAIN_TEXT" value="53" />
           <entry key="Python" value="413" />
@@ -60,23 +64,23 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="65" />
-          <entry key="conf" value="10" />
+          <entry key="conf" value="23" />
           <entry key="dummy" value="17" />
           <entry key="html" value="14863" />
-          <entry key="ini" value="499" />
+          <entry key="ini" value="513" />
           <entry key="log" value="3" />
           <entry key="pem" value="7" />
-          <entry key="py" value="19970" />
+          <entry key="py" value="20037" />
           <entry key="txt" value="436" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="14863" />
-          <entry key="Ini" value="499" />
+          <entry key="Ini" value="513" />
           <entry key="Log" value="2" />
-          <entry key="PLAIN_TEXT" value="471" />
-          <entry key="Python" value="20035" />
+          <entry key="PLAIN_TEXT" value="484" />
+          <entry key="Python" value="20102" />
         </counts>
       </usages-collector>
     </session>
@@ -86,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dailyfresh/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="211">
               <caret line="129" column="55" selection-start-line="129" selection-start-column="55" selection-end-line="129" selection-end-column="55" />
             </state>
           </provider>
@@ -95,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dailyfresh/settings/development.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+            <state relative-caret-position="189">
+              <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
               <folding>
                 <element signature="e#331#340#0" expanded="true" />
               </folding>
@@ -107,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dailyfresh/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+            <state relative-caret-position="449">
+              <caret line="101" column="1" lean-forward="true" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
               <folding>
                 <element signature="e#330#339#0" expanded="true" />
               </folding>
@@ -117,10 +121,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uwsgi.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/fdfs/client_production.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-660">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="382">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -129,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/utils/fdfs/client.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -137,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/fdfs/storage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="748">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -155,6 +168,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -201,15 +217,15 @@
         <option value="$PROJECT_DIR$/dailyfresh/settings/local.py" />
         <option value="$PROJECT_DIR$/dailyfresh/settings.py" />
         <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/uwsgi.ini" />
         <option value="$PROJECT_DIR$/app_private_key.pem" />
         <option value="$PROJECT_DIR$/dailyfresh/wsgi.py" />
         <option value="$PROJECT_DIR$/utils/fdfs/client.conf" />
         <option value="$PROJECT_DIR$/utils/fdfs/storage.py" />
+        <option value="$PROJECT_DIR$/utils/fdfs/client_production.conf" />
         <option value="$PROJECT_DIR$/dailyfresh/settings/base.py" />
         <option value="$PROJECT_DIR$/dailyfresh/settings/development.py" />
         <option value="$PROJECT_DIR$/dailyfresh/settings/production.py" />
-        <option value="$PROJECT_DIR$/utils/fdfs/client_production.conf" />
+        <option value="$PROJECT_DIR$/uwsgi.ini" />
       </list>
     </option>
   </component>
@@ -241,12 +257,12 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +285,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -359,13 +376,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1280" height="997" extended-state="6" />
+    <frame x="0" y="25" width="1038" height="977" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16450568" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1875" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4971335" visible="true" weight="0.3429229" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4971335" visible="true" weight="0.46044865" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5028665" side_tool="true" weight="0.38551402" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.3141542" />
@@ -650,21 +668,14 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="472">
-          <caret line="705" column="39" lean-forward="true" selection-start-line="705" selection-start-column="39" selection-end-line="705" selection-end-column="39" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="132" column="53" lean-forward="true" selection-start-line="132" selection-start-column="53" selection-end-line="132" selection-end-column="53" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="472">
+          <caret line="705" column="39" lean-forward="true" selection-start-line="705" selection-start-column="39" selection-end-line="705" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -693,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/fdfs/storage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="748">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
@@ -704,21 +715,28 @@
     <entry file="file://$PROJECT_DIR$/utils/fdfs/client.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fdfs/client_production.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dailyfresh/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="211">
           <caret line="129" column="55" selection-start-line="129" selection-start-column="55" selection-end-line="129" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dailyfresh/settings/development.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+        <state relative-caret-position="189">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
           <folding>
             <element signature="e#331#340#0" expanded="true" />
           </folding>
@@ -727,18 +745,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dailyfresh/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+        <state relative-caret-position="449">
+          <caret line="101" column="1" lean-forward="true" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
           <folding>
             <element signature="e#330#339#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/fdfs/client_production.conf">
+    <entry file="file://$PROJECT_DIR$/uwsgi.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="298">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
