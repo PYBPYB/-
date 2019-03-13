@@ -72,7 +72,7 @@ ADMINS = (
 
 # 日志文件
 LOGGING = {
-    'version': 'dailyfresh_bushu',
+    'version': 1,
     'disable_existing_loggers': False,
     'handlers': {
         'file': {
