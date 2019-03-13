@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    {% for goodstype in goodstype_list %}
+    <li>
+        <ul>
+            <li>{{ goodstype.name }}</li>
+            <li><img src="{{ goodstype.image.url }}"></li>
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>

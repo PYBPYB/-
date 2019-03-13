@@ -1,0 +1,814 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar  7 05:52:38 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:32897 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+Set PythonHome to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+Fatal Python error: Py_Initialize: Unable to get the locale encoding
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f9fa2d2f740 (most recent call first):
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar  7 05:55:47 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44079 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x55fefc7a7d50
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+Traceback (most recent call last):
+  File "dailyfresh/wsgi.py", line 17, in <module>
+    application = get_wsgi_application()
+  File "/home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/conf/__init__.py", line 57, in __getattr__
+    self._setup(name)
+  File "/home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6970)
+spawned uWSGI worker 1 (pid: 6976, cores: 2)
+spawned uWSGI worker 2 (pid: 6977, cores: 2)
+spawned uWSGI worker 3 (pid: 6979, cores: 2)
+spawned uWSGI worker 4 (pid: 6981, cores: 2)
+spawned uWSGI http 1 (pid: 6983)
+--- no python application found, check your startup logs for errors ---
+[pid: 6981|app: -1|req: -1/1] 192.168.85.130 () {42 vars in 851 bytes} [Thu Mar  7 05:56:40 2019] GET /detail/1 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6981|app: -1|req: -1/2] 192.168.85.130 () {38 vars in 761 bytes} [Thu Mar  7 05:56:48 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6981|app: -1|req: -1/3] 192.168.85.130 () {40 vars in 791 bytes} [Thu Mar  7 05:56:53 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6979|app: -1|req: -1/4] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 05:59:45 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6981|app: -1|req: -1/5] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 05:59:46 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6977|app: -1|req: -1/6] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 05:59:46 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6977|app: -1|req: -1/7] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 05:59:46 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6977|app: -1|req: -1/8] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 05:59:46 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6977|app: -1|req: -1/9] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 05:59:46 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6977|app: -1|req: -1/10] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 06:00:04 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 6977|app: -1|req: -1/11] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 06:00:06 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 6976|app: -1|req: -1/12] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 06:00:06 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check yo3ur startup logs for errors ---
+[pid: 6976|app: -1|req: -1/13] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 06:00:07 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 6981|app: -1|req: -1/14] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 06:00:07 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 6981|app: -1|req: -1/15] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 06:00:07 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6977|app: -1|req: -1/16] 192.168.85.130 () {40 vars in 792 bytes} [Thu Mar  7 06:00:07 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 6979|app: -1|req: -1/17] 192.168.85.1 () {42 vars in 860 bytes} [Thu Mar  7 06:00:42 2019] GET /detail/1 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 6979|app: -1|req: -1/18] 192.168.85.1 () {42 vars in 860 bytes} [Thu Mar  7 06:00:42 2019] GET /detail/1 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar  7 06:10:25 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41525 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x564ad12e7d50
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+Traceback (most recent call last):
+  File "dailyfresh/wsgi.py", line 17, in <module>
+    application = get_wsgi_application()
+  File "/home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/conf/__init__.py", line 57, in __getattr__
+    self._setup(name)
+  File "/home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7460)
+spawned uWSGI worker 1 (pid: 7466, cores: 2)
+spawned uWSGI worker 2 (pid: 7467, cores: 2)
+spawned uWSGI worker 3 (pid: 7469, cores: 2)
+spawned uWSGI worker 4 (pid: 7471, cores: 2)
+spawned uWSGI http 1 (pid: 7473)
+--- no python application found, check your startup logs for errors ---
+[pid: 7469|app: -1|req: -1/1] 192.168.85.1 () {42 vars in 861 bytes} [Thu Mar  7 06:10:31 2019] GET /detail/1 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 7471|app: -1|req: -1/2] 192.168.85.1 () {42 vars in 861 bytes} [Thu Mar  7 06:10:31 2019] GET /detail/1 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 7469|app: -1|req: -1/3] 192.168.85.1 () {42 vars in 861 bytes} [Thu Mar  7 06:10:31 2019] GET /detail/1 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 7469|app: -1|req: -1/4] 192.168.85.1 () {42 vars in 861 bytes} [Thu Mar  7 06:10:32 2019] GET /detail/1 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 7469|app: -1|req: -1/5] 192.168.85.1 () {38 vars in 771 bytes} [Thu Mar  7 06:10:34 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+gateway "uWSGI http 1" has been buried (pid: 7473)
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 7466)...
+Gracefully killing worker 4 (pid: 7471)...
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    *** Starting uWSGI 2.0.18 (64bit) on [Thu Mar  7 18:24:23 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33215 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x55b5e0046d50
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+Traceback (most recent call last):
+  File "dailyfresh/wsgi.py", line 17, in <module>
+    application = get_wsgi_application()
+  File "/home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/conf/__init__.py", line 57, in __getattr__
+    self._setup(name)
+  File "/home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting LOGGING_CONFIG, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12365)
+spawned uWSGI worker 1 (pid: 12371, cores: 2)
+spawned uWSGI worker 2 (pid: 12372, cores: 2)
+spawned uWSGI worker 3 (pid: 12374, cores: 2)
+spawned uWSGI worker 4 (pid: 12376, cores: 2)
+spawned uWSGI http 1 (pid: 12377)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 12377)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar  7 18:26:38 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-45-generic #48-Ubuntu SMP Tue Jan 29 16:28:13 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34957 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x56364fc19d50
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56364fc19d50 pid: 12430 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12430)
+spawned uWSGI worker 1 (pid: 12436, cores: 2)
+spawned uWSGI worker 2 (pid: 12437, cores: 2)
+spawned uWSGI worker 3 (pid: 12439, cores: 2)
+spawned uWSGI worker 4 (pid: 12442, cores: 2)
+spawned uWSGI http 1 (pid: 12444)
+设置缓存。。
+[pid: 12437|app: 0|req: 1/1] 192.168.85.1 () {38 vars in 771 bytes} [Fri Mar  8 10:28:45 2019] GET / => generated 10906 bytes in 831 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 12442|app: 0|req: 1/2] 192.168.85.1 () {38 vars in 755 bytes} [Fri Mar  8 10:28:47 2019] GET /favicon.ico => generated 77 bytes in 318 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 12436|app: 0|req: 1/3] 192.168.85.1 () {40 vars in 832 bytes} [Fri Mar  8 10:28:49 2019] GET /user/user => generated 4847 bytes in 396 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 12442|app: 0|req: 2/4] 192.168.85.1 () {40 vars in 849 bytes} [Fri Mar  8 10:28:51 2019] GET /user/order/1/ => generated 6183 bytes in 108 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 12439|app: 0|req: 1/5] 192.168.85.1 () {40 vars in 851 bytes} [Fri Mar  8 10:28:52 2019] GET /user/address => generated 3452 bytes in 347 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 12436|app: 0|req: 2/6] 192.168.85.1 () {40 vars in 852 bytes} [Fri Mar  8 10:28:53 2019] GET /user/order/1/ => generated 6183 bytes in 41 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 12436|app: 0|req: 3/7] 192.168.85.1 () {40 vars in 845 bytes} [Fri Mar  8 10:28:53 2019] GET /user/user => generated 4847 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 12436|app: 0|req: 4/8] 192.168.85.1 () {40 vars in 823 bytes} [Fri Mar  8 10:29:01 2019] GET / => generated 10906 bytes in 189 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 12442|app: 0|req: 3/9] 192.168.85.1 () {42 vars in 854 bytes} [Fri Mar  8 10:33:52 2019] GET / => generated 10906 bytes in 94 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 12437|app: 0|req: 2/10] 192.168.85.1 () {36 vars in 621 bytes} [Fri Mar  8 10:35:26 2019] GET / => generated 10898 bytes in 63 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 12436|app: 0|req: 5/11] 192.168.85.1 () {36 vars in 602 bytes} [Fri Mar  8 10:35:26 2019] GET /static/css/reset.css => generated 77 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 12442|app: 0|req: 4/12] 192.168.85.1 () {36 vars in 600 bytes} [Fri Mar  8 10:35:26 2019] GET /static/css/main.css => generated 77 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 12437|app: 0|req: 3/13] 192.168.85.1 () {36 vars in 607 bytes} [Fri Mar  8 10:35:26 2019] GET /static/js/jquery-1.12.4.min.js => generated 77 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 12439|app: 0|req: 2/14] 192.168.85.1 () {36 vars in 599 bytes} [Fri Mar  8 10:35:26 2019] GET /static/js/jquery-ui.min.js => generated 77 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 12436|app: 0|req: 6/15] 192.168.85.1 () {36 vars in 583 bytes} [Fri Mar  8 10:35:26 2019] GET /static/js/slide.js => generated 77 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 12436|app: 0|req: 7/16] 192.168.85.1 () {36 vars in 627 bytes} [Fri Mar  8 10:35:26 2019] GET /static/images/logo.png => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 12442|app: 0|req: 5/17] 192.168.85.1 () {36 vars in 583 bytes} [Fri Mar  8 10:35:26 2019] GET /static/js/slide.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 12442|app: 0|req: 6/18] 192.168.85.1 () {36 vars in 607 bytes} [Fri Mar  8 10:35:26 2019] GET /static/js/jquery-1.12.4.min.js => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 12444)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  8 00:02:19 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x56554c51bcb0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56554c51bcb0 pid: 3403 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3403)
+spawned uWSGI worker 1 (pid: 3409, cores: 2)
+spawned uWSGI worker 2 (pid: 3410, cores: 2)
+spawned uWSGI worker 3 (pid: 3412, cores: 2)
+spawned uWSGI worker 4 (pid: 3415, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  8 00:04:45 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38309 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x56210d75ad70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56210d75ad70 pid: 3466 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3466)
+spawned uWSGI worker 1 (pid: 3472, cores: 2)
+spawned uWSGI worker 2 (pid: 3473, cores: 2)
+spawned uWSGI worker 3 (pid: 3476, cores: 2)
+spawned uWSGI worker 4 (pid: 3478, cores: 2)
+spawned uWSGI http 1 (pid: 3479)
+[pid: 3478|app: 0|req: 1/1] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:04:53 2019] GET / => generated 27 bytes in 410 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3478|app: 0|req: 2/2] 192.168.85.1 () {36 vars in 605 bytes} [Fri Mar  8 16:04:54 2019] GET /favicon.ico => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 3479)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  8 00:11:22 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46881 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x558a5299bd70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x558a5299bd70 pid: 3968 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3968)
+spawned uWSGI worker 1 (pid: 3974, cores: 2)
+spawned uWSGI worker 2 (pid: 3975, cores: 2)
+spawned uWSGI worker 3 (pid: 3977, cores: 2)
+spawned uWSGI worker 4 (pid: 3979, cores: 2)
+spawned uWSGI http 1 (pid: 3981)
+[pid: 3975|app: 0|req: 1/1] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:11:27 2019] GET / => generated 27 bytes in 412 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3979|app: 0|req: 1/2] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:11:28 2019] GET / => generated 27 bytes in 354 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3975|app: 0|req: 2/3] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:11:46 2019] GET / => generated 27 bytes in 15 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3979|app: 0|req: 2/4] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:11:47 2019] GET / => generated 27 bytes in 15 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3979|app: 0|req: 3/5] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:11:47 2019] GET / => generated 27 bytes in 12 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3977|app: 0|req: 1/6] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:11:47 2019] GET / => generated 27 bytes in 342 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3975|app: 0|req: 3/7] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:11:48 2019] GET / => generated 27 bytes in 12 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3979|app: 0|req: 4/8] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:11:48 2019] GET / => generated 27 bytes in 13 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+设置缓存。。
+[pid: 3979|app: 0|req: 5/9] 192.168.85.1 () {38 vars in 651 bytes} [Fri Mar  8 16:13:59 2019] GET / => generated 27 bytes in 87 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3975|app: 0|req: 4/10] 192.168.85.1 () {38 vars in 651 bytes} [Fri Mar  8 16:14:00 2019] GET / => generated 27 bytes in 34 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3979|app: 0|req: 6/11] 192.168.85.1 () {38 vars in 651 bytes} [Fri Mar  8 16:14:00 2019] GET / => generated 27 bytes in 30 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3977|app: 0|req: 2/12] 192.168.85.1 () {38 vars in 651 bytes} [Fri Mar  8 16:14:00 2019] GET / => generated 27 bytes in 35 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3979|app: 0|req: 7/13] 192.168.85.1 () {38 vars in 651 bytes} [Fri Mar  8 16:14:09 2019] GET / => generated 27 bytes in 21 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3979|app: 0|req: 8/14] 192.168.85.1 () {38 vars in 651 bytes} [Fri Mar  8 16:14:09 2019] GET / => generated 27 bytes in 27 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3979|app: 0|req: 9/15] 192.168.85.1 () {38 vars in 651 bytes} [Fri Mar  8 16:14:10 2019] GET / => generated 27 bytes in 23 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3979|app: 0|req: 10/16] 192.168.85.1 () {38 vars in 651 bytes} [Fri Mar  8 16:14:20 2019] GET / => generated 27 bytes in 22 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3979|app: 0|req: 11/17] 192.168.85.1 () {38 vars in 651 bytes} [Fri Mar  8 16:14:21 2019] GET / => generated 27 bytes in 56 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3979|app: 0|req: 12/18] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:16:45 2019] GET / => generated 27 bytes in 22 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3979|app: 0|req: 13/19] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:16:45 2019] GET / => generated 27 bytes in 25 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3979|app: 0|req: 14/20] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:16:45 2019] GET / => generated 27 bytes in 20 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3979|app: 0|req: 15/21] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:16:45 2019] GET / => generated 27 bytes in 21 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3977|app: 0|req: 3/22] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:16:46 2019] GET / => generated 27 bytes in 23 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3979|app: 0|req: 16/23] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:16:47 2019] GET / => generated 27 bytes in 23 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3977|app: 0|req: 4/24] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:16:47 2019] GET / => generated 27 bytes in 20 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 3981)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  8 00:19:04 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45793 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x5616e2779d70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5616e2779d70 pid: 4301 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4301)
+spawned uWSGI worker 1 (pid: 4307, cores: 2)
+spawned uWSGI worker 2 (pid: 4308, cores: 2)
+spawned uWSGI worker 3 (pid: 4311, cores: 2)
+spawned uWSGI worker 4 (pid: 4313, cores: 2)
+spawned uWSGI http 1 (pid: 4314)
+[pid: 4313|app: 0|req: 1/1] 192.168.85.1 () {38 vars in 652 bytes} [Fri Mar  8 16:19:09 2019] GET / => generated 27 bytes in 385 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4314)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  8 02:13:24 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:43363 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x559d68742d70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x559d68742d70 pid: 3354 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3354)
+spawned uWSGI worker 1 (pid: 3360, cores: 2)
+spawned uWSGI worker 2 (pid: 3361, cores: 2)
+spawned uWSGI worker 3 (pid: 3363, cores: 2)
+spawned uWSGI worker 4 (pid: 3365, cores: 2)
+spawned uWSGI http 1 (pid: 3367)
+[pid: 3363|app: 0|req: 1/1] 192.168.85.1 () {42 vars in 857 bytes} [Fri Mar  8 18:13:28 2019] GET / => generated 10906 bytes in 488 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 3361|app: 0|req: 1/2] 192.168.85.1 () {40 vars in 707 bytes} [Fri Mar  8 18:13:48 2019] GET / => generated 10898 bytes in 423 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 3361|app: 0|req: 2/3] 192.168.85.1 () {36 vars in 600 bytes} [Fri Mar  8 18:13:49 2019] GET /static/css/main.css => generated 77 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3363|app: 0|req: 3/4] 192.168.85.1 () {36 vars in 583 bytes} [Fri Mar  8 18:13:49 2019] GET /static/js/slide.js => generated 77 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3363|app: 0|req: 3/5] 192.168.85.1 () {36 vars in 599 bytes} [Fri Mar  8 18:13:49 2019] GET /static/js/jquery-ui.min.js => generated 77 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 1/6] 192.168.85.1 () {36 vars in 602 bytes} [Fri Mar  8 18:13:49 2019] GET /static/css/reset.css => generated 77 bytes in 482 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3360|app: 0|req: 2/7] 192.168.85.1 () {36 vars in 607 bytes} [Fri Mar  8 18:13:49 2019] GET /static/js/jquery-1.12.4.min.js => generated 77 bytes in 505 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3360|app: 0|req: 2/8] 192.168.85.1 () {36 vars in 627 bytes} [Fri Mar  8 18:13:49 2019] GET /static/images/logo.png => generated 77 bytes in 496 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 2/9] 192.168.85.1 () {36 vars in 599 bytes} [Fri Mar  8 18:13:49 2019] GET /static/js/jquery-ui.min.js => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3363|app: 0|req: 4/10] 192.168.85.1 () {36 vars in 583 bytes} [Fri Mar  8 18:13:49 2019] GET /static/js/slide.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 3/11] 192.168.85.1 () {36 vars in 607 bytes} [Fri Mar  8 18:13:49 2019] GET /static/js/jquery-1.12.4.min.js => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 4/12] 192.168.85.1 () {38 vars in 689 bytes} [Fri Mar  8 18:14:44 2019] GET /user/order/1/ => generated 0 bytes in 16 msecs (HTTP/1.1 302) 5 headers in 167 bytes (1 switches on core 1)
+[pid: 3361|app: 0|req: 3/13] 192.168.85.1 () {38 vars in 722 bytes} [Fri Mar  8 18:14:44 2019] GET /user/login?next=/user/order/1/ => generated 2147 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 3363|app: 0|req: 5/14] 192.168.85.1 () {38 vars in 720 bytes} [Fri Mar  8 18:14:44 2019] GET /static/css/reset.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 6/15] 192.168.85.1 () {38 vars in 749 bytes} [Fri Mar  8 18:14:44 2019] GET /static/images/logo02.png => generated 77 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 6/16] 192.168.85.1 () {38 vars in 718 bytes} [Fri Mar  8 18:14:44 2019] GET /static/css/main.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 7/17] 192.168.85.1 () {48 vars in 984 bytes} [Fri Mar  8 18:14:47 2019] POST /user/login?next=/user/order/1/ => generated 0 bytes in 109 msecs (HTTP/1.1 302) 8 headers in 556 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 8/18] 192.168.85.1 () {42 vars in 900 bytes} [Fri Mar  8 18:14:47 2019] GET /user/order/1/ => generated 6183 bytes in 123 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 3363|app: 0|req: 6/19] 192.168.85.1 () {38 vars in 764 bytes} [Fri Mar  8 18:14:47 2019] GET /static/css/reset.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3363|app: 0|req: 7/20] 192.168.85.1 () {38 vars in 762 bytes} [Fri Mar  8 18:14:47 2019] GET /static/css/main.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 9/21] 192.168.85.1 () {38 vars in 789 bytes} [Fri Mar  8 18:14:47 2019] GET /static/images/logo.png => generated 77 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3363|app: 0|req: 8/22] 192.168.85.1 () {38 vars in 769 bytes} [Fri Mar  8 18:14:47 2019] GET /static/js/jquery-1.12.4.min.js => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3363|app: 0|req: 9/23] 192.168.85.1 () {40 vars in 852 bytes} [Fri Mar  8 18:14:52 2019] GET /user/order/1/ => generated 6183 bytes in 65 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 10/24] 192.168.85.1 () {38 vars in 764 bytes} [Fri Mar  8 18:14:52 2019] GET /static/css/reset.css => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 11/25] 192.168.85.1 () {38 vars in 762 bytes} [Fri Mar  8 18:14:52 2019] GET /static/css/main.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 12/26] 192.168.85.1 () {38 vars in 789 bytes} [Fri Mar  8 18:14:52 2019] GET /static/images/logo.png => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 13/27] 192.168.85.1 () {38 vars in 769 bytes} [Fri Mar  8 18:14:52 2019] GET /static/js/jquery-1.12.4.min.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 14/28] 192.168.85.1 () {40 vars in 853 bytes} [Fri Mar  8 18:14:53 2019] GET /user/order/1/ => generated 6183 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 15/29] 192.168.85.1 () {38 vars in 765 bytes} [Fri Mar  8 18:14:53 2019] GET /static/css/reset.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 16/30] 192.168.85.1 () {38 vars in 763 bytes} [Fri Mar  8 18:14:53 2019] GET /static/css/main.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 17/31] 192.168.85.1 () {38 vars in 790 bytes} [Fri Mar  8 18:14:53 2019] GET /static/images/logo.png => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 18/32] 192.168.85.1 () {38 vars in 770 bytes} [Fri Mar  8 18:14:53 2019] GET /static/js/jquery-1.12.4.min.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 19/33] 192.168.85.1 () {40 vars in 845 bytes} [Fri Mar  8 18:14:55 2019] GET /user/user => generated 4847 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 20/34] 192.168.85.1 () {38 vars in 761 bytes} [Fri Mar  8 18:14:55 2019] GET /static/css/reset.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3361|app: 0|req: 4/35] 192.168.85.1 () {38 vars in 759 bytes} [Fri Mar  8 18:14:55 2019] GET /static/css/main.css => generated 77 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 21/36] 192.168.85.1 () {38 vars in 786 bytes} [Fri Mar  8 18:14:55 2019] GET /static/images/logo.png => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3361|app: 0|req: 5/37] 192.168.85.1 () {40 vars in 849 bytes} [Fri Mar  8 18:14:57 2019] GET /user/order/1/ => generated 6183 bytes in 77 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 22/38] 192.168.85.1 () {38 vars in 765 bytes} [Fri Mar  8 18:14:57 2019] GET /static/css/reset.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3363|app: 0|req: 10/39] 192.168.85.1 () {38 vars in 763 bytes} [Fri Mar  8 18:14:57 2019] GET /static/css/main.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 23/40] 192.168.85.1 () {38 vars in 790 bytes} [Fri Mar  8 18:14:57 2019] GET /static/images/logo.png => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 24/41] 192.168.85.1 () {38 vars in 770 bytes} [Fri Mar  8 18:14:57 2019] GET /static/js/jquery-1.12.4.min.js => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 25/42] 192.168.85.1 () {40 vars in 853 bytes} [Fri Mar  8 18:15:06 2019] GET /user/order/2/ => generated 6140 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 26/43] 192.168.85.1 () {38 vars in 765 bytes} [Fri Mar  8 18:15:06 2019] GET /static/css/reset.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 27/44] 192.168.85.1 () {38 vars in 763 bytes} [Fri Mar  8 18:15:06 2019] GET /static/css/main.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 28/45] 192.168.85.1 () {38 vars in 790 bytes} [Fri Mar  8 18:15:06 2019] GET /static/images/logo.png => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 29/46] 192.168.85.1 () {38 vars in 770 bytes} [Fri Mar  8 18:15:06 2019] GET /static/js/jquery-1.12.4.min.js => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3360|app: 0|req: 3/47] 192.168.85.1 () {40 vars in 853 bytes} [Fri Mar  8 18:15:10 2019] GET /user/order/4/ => generated 6143 bytes in 112 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 3365|app: 0|req: 30/48] 192.168.85.1 () {38 vars in 765 bytes} [Fri Mar  8 18:15:11 2019] GET /static/css/reset.css => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3360|app: 0|req: 4/49] 192.168.85.1 () {38 vars in 763 bytes} [Fri Mar  8 18:15:11 2019] GET /static/css/main.css => generated 77 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3363|app: 0|req: 11/50] 192.168.85.1 () {38 vars in 790 bytes} [Fri Mar  8 18:15:11 2019] GET /static/images/logo.png => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3363|app: 0|req: 12/51] 192.168.85.1 () {38 vars in 770 bytes} [Fri Mar  8 18:15:11 2019] GET /static/js/jquery-1.12.4.min.js => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+Building prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/jieba.cache
+Loading model cost 1.043 seconds.
+Prefix dict has been built succesfully.
+[pid: 3365|app: 0|req: 31/52] 192.168.85.1 () {40 vars in 880 bytes} [Fri Mar  8 18:15:23 2019] GET /search?q=%E9%B8%A1%E8%9B%8B => generated 3220 bytes in 1088 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 3363|app: 0|req: 13/53] 192.168.85.1 () {38 vars in 779 bytes} [Fri Mar  8 18:15:24 2019] GET /static/css/reset.css => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 32/54] 192.168.85.1 () {38 vars in 777 bytes} [Fri Mar  8 18:15:24 2019] GET /static/css/main.css => generated 77 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3365|app: 0|req: 33/55] 192.168.85.1 () {38 vars in 804 bytes} [Fri Mar  8 18:15:24 2019] GET /static/images/logo.png => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  8 19:00:53 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42545 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x56100af2dc60
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56100af2dc60 pid: 5531 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5531)
+spawned uWSGI worker 1 (pid: 5537, cores: 2)
+spawned uWSGI worker 2 (pid: 5538, cores: 2)
+spawned uWSGI worker 3 (pid: 5540, cores: 2)
+spawned uWSGI worker 4 (pid: 5542, cores: 2)
+spawned uWSGI http 1 (pid: 5544)
+[pid: 5540|app: 0|req: 1/1] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:00:58 2019] GET / => generated 27 bytes in 546 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 5542|app: 0|req: 1/2] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:01:17 2019] GET / => generated 27 bytes in 620 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 5542|app: 0|req: 2/3] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:03:23 2019] GET / => generated 27 bytes in 97 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 5540|app: 0|req: 2/4] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:03:24 2019] GET / => generated 27 bytes in 91 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5544)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  8 19:05:57 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46675 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x5565d99afcf0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5565d99afcf0 pid: 5669 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5669)
+spawned uWSGI worker 1 (pid: 5675, cores: 2)
+spawned uWSGI worker 2 (pid: 5676, cores: 2)
+spawned uWSGI worker 3 (pid: 5678, cores: 2)
+spawned uWSGI worker 4 (pid: 5680, cores: 2)
+spawned uWSGI http 1 (pid: 5682)
+[pid: 5676|app: 0|req: 1/1] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:06:03 2019] GET / => generated 27 bytes in 542 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 5678|app: 0|req: 1/2] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:06:07 2019] GET / => generated 27 bytes in 500 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5682)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  8 19:08:06 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36049 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x55e07c8d2cf0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+成功了马？
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55e07c8d2cf0 pid: 5750 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5750)
+spawned uWSGI worker 1 (pid: 5756, cores: 2)
+spawned uWSGI worker 2 (pid: 5757, cores: 2)
+spawned uWSGI worker 3 (pid: 5759, cores: 2)
+spawned uWSGI worker 4 (pid: 5761, cores: 2)
+spawned uWSGI http 1 (pid: 5762)
+[pid: 5759|app: 0|req: 1/1] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:11:38 2019] GET / => generated 27 bytes in 513 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 5759|app: 0|req: 2/2] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:11:44 2019] GET / => generated 27 bytes in 101 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 5761|app: 0|req: 1/3] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:16:31 2019] GET / => generated 27 bytes in 543 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5762)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  8 19:21:50 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34985 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x559869b14cf0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+成功了马？
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x559869b14cf0 pid: 5997 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5997)
+spawned uWSGI worker 1 (pid: 6003, cores: 2)
+spawned uWSGI worker 2 (pid: 6004, cores: 2)
+spawned uWSGI worker 3 (pid: 6006, cores: 2)
+spawned uWSGI worker 4 (pid: 6008, cores: 2)
+spawned uWSGI http 1 (pid: 6010)
+[pid: 6004|app: 0|req: 1/1] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:22:00 2019] GET / => generated 27 bytes in 1088 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 6004|app: 0|req: 2/2] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:22:06 2019] GET / => generated 27 bytes in 100 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 6008|app: 0|req: 1/3] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:22:06 2019] GET / => generated 27 bytes in 509 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 6004|app: 0|req: 3/4] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:22:19 2019] GET / => generated 27 bytes in 102 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 6008|app: 0|req: 2/5] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:22:19 2019] GET / => generated 27 bytes in 93 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 6008|app: 0|req: 3/6] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 11:22:20 2019] GET / => generated 27 bytes in 89 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 6006|app: 0|req: 1/7] 192.168.85.1 () {36 vars in 621 bytes} [Sat Mar  9 11:22:41 2019] GET / => generated 27 bytes in 604 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 6008|app: 0|req: 4/8] 192.168.85.1 () {36 vars in 620 bytes} [Sat Mar  9 11:22:47 2019] GET / => generated 27 bytes in 101 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 6010)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  8 20:42:03 2019] ***
+compiled with version: 7.3.0 on 07 March 2019 13:09:59
+os: Linux-4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pybzdxhsyysqzm/Django/dailyfreshTow
+writing pidfile to uwsgi.pid
+detected binary path: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/bin/uwsgi
+chdir() to /home/pybzdxhsyysqzm/Django/dailyfreshTow
+your processes number limit is 15449
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.85.130:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41173 (port auto-assigned) fd 3
+Python version: 3.6.7 (default, Oct 22 2018, 11:32:17)  [GCC 8.2.0]
+PEP 405 virtualenv detected: /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Set PythonHome to /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow
+Python main interpreter initialized at 0x55f774a4acf0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55f774a4acf0 pid: 2465 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2465)
+spawned uWSGI worker 1 (pid: 2471, cores: 2)
+spawned uWSGI worker 2 (pid: 2472, cores: 2)
+spawned uWSGI worker 3 (pid: 2474, cores: 2)
+spawned uWSGI worker 4 (pid: 2477, cores: 2)
+spawned uWSGI http 1 (pid: 2479)
+[pid: 2477|app: 0|req: 1/1] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 12:42:25 2019] GET / => generated 27 bytes in 362 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 2477|app: 0|req: 2/2] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 12:42:37 2019] GET / => generated 27 bytes in 13 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+设置缓存。。
+[pid: 2471|app: 0|req: 1/3] 192.168.85.1 () {38 vars in 652 bytes} [Sat Mar  9 12:42:47 2019] GET / => generated 10898 bytes in 563 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)

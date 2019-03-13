@@ -1,0 +1,33 @@
+启动tracker、storage、nginx服务
+
+    sudo service fdfs_trackerd start
+    sudo service fdfs_storaged start
+
+    sudo /usr/local/nginx/sbin/ngnix  start stop restart
+
+
+ 启动celery(处理也许要知道的代码)
+    celery -A        celery_tasks.tasks  -l info  worker
+           启动方式    相对当前位置的地址     后台信息级别
+
+
+       ---在 python Console 启动relery（处理）
+       >>>>from celery_tasks.tasks import generate_static_index_html
+       >>>>generate_static_index_html.delay()
+
+
+
+ nginx 相关的
+     /etc/fdfs/mod_fastdfs.conf
+     /usr/local/nginx/conf/nginx.conf
+
+     sudo ./nginx
+
+     sudo /usr/local/nginx/sbin/nginx -s reload   # 重启nginx
+
+ 建立索引命令
+    python manage.py rebuild_index
+
+
+ 搜索关键词拆分（中文修改）地址：
+    /home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/haystack/backends
