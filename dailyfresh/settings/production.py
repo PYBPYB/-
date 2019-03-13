@@ -72,7 +72,7 @@ ADMINS = (
 
 # 日志文件
 LOGGING = {
-    'version': '天天生鲜1.0',
+    'version': 'dailyfresh1.0',
     'disable_existing_loggers': False,
     'handlers': {
         'file': {
