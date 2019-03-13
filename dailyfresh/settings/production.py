@@ -31,7 +31,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'dailyfresh',
-        'USER': 'admin',
+        'USER': 'root',
         'PASSWORD': os.environ['PASSWORD'],
         'HOST': '172.16.9.118',
         'PORT': '3306',
