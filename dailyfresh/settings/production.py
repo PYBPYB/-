@@ -22,7 +22,7 @@ from .base import *
 SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -33,7 +33,7 @@ DATABASES = {
         'NAME': 'dailyfresh',
         'USER': 'root',
         'PASSWORD': os.environ['PASSWORD'],
-        'HOST': '172.16.9.118',
+        'HOST': 'localhost',
         'PORT': '3306',
     }
 }

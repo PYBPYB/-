@@ -20,7 +20,7 @@ import sys
 from .base import *
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '4uq#q$a!ntk-rn6jfb8&r(3m68_eu%@u0enrh+1skx&2zc$%#a'
+SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
