@@ -10,7 +10,7 @@ from django_redis import get_redis_connection
 import os
 import django
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dailyfresh.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dailyfresh.settings.production')
 django.setup()
 
 # from apps.goods.models import *  # 这个东西没用他，也会阻止celery启动？？？？
