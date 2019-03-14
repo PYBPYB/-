@@ -24,5 +24,4 @@ urlpatterns = [
     re_path(r'^order/', include(('apps.order.urls', 'apps'), namespace='order')),  # 订单模块
     re_path(r'^cart/', include(('apps.cart.urls', 'apps'), namespace='cart')),  # 购物车模块
     re_path(r'^', include(('apps.goods.urls', 'apps'), namespace='goods')),  # 商品模块
-
 ]
