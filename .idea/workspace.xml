@@ -6,9 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a012f9e-1e3c-46db-ae8e-6e9bff18c805" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dailyfresh/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyfresh/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailyfresh/settings/development.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyfresh/settings/development.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/dump.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailyfresh/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyfresh/settings/production.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/fdfs/client_production.conf" beforeDir="false" afterPath="$PROJECT_DIR$/utils/fdfs/client_production.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +37,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="PKG-INFO" value="3" />
-          <entry key="conf" value="7" />
+          <entry key="conf" value="10" />
           <entry key="css" value="4" />
           <entry key="html" value="384" />
           <entry key="ini" value="8" />
@@ -46,7 +45,7 @@
           <entry key="pem" value="8" />
           <entry key="pid" value="1" />
           <entry key="png" value="4" />
-          <entry key="py" value="425" />
+          <entry key="py" value="428" />
           <entry key="rdb" value="3" />
           <entry key="text" value="3" />
           <entry key="txt" value="31" />
@@ -59,8 +58,8 @@
           <entry key="Image" value="4" />
           <entry key="Ini" value="8" />
           <entry key="Log" value="10" />
-          <entry key="PLAIN_TEXT" value="57" />
-          <entry key="Python" value="425" />
+          <entry key="PLAIN_TEXT" value="60" />
+          <entry key="Python" value="428" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -72,7 +71,7 @@
           <entry key="ini" value="522" />
           <entry key="log" value="3" />
           <entry key="pem" value="7" />
-          <entry key="py" value="20172" />
+          <entry key="py" value="20195" />
           <entry key="txt" value="436" />
         </counts>
       </usages-collector>
@@ -82,7 +81,7 @@
           <entry key="Ini" value="522" />
           <entry key="Log" value="2" />
           <entry key="PLAIN_TEXT" value="484" />
-          <entry key="Python" value="20252" />
+          <entry key="Python" value="20275" />
         </counts>
       </usages-collector>
     </session>
@@ -98,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dailyfresh/settings/development.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="e#331#340#0" expanded="true" />
               </folding>
@@ -111,10 +110,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/fdfs/storage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/contrib/admin/views/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1672">
+              <caret line="91" column="11" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dailyfresh/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="46" />
+              <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
               <folding>
                 <element signature="e#330#339#0" expanded="true" />
               </folding>
@@ -179,7 +199,6 @@
         <option value="$PROJECT_DIR$/dailyfresh/wsgi.py" />
         <option value="$PROJECT_DIR$/utils/fdfs/client.conf" />
         <option value="$PROJECT_DIR$/utils/fdfs/storage.py" />
-        <option value="$PROJECT_DIR$/utils/fdfs/client_production.conf" />
         <option value="$PROJECT_DIR$/dailyfresh/urls.py" />
         <option value="$PROJECT_DIR$/uwsgi.ini" />
         <option value="$PROJECT_DIR$/celery_tasks/tasks.py" />
@@ -187,9 +206,10 @@
         <option value="$PROJECT_DIR$/static/admin/css/dashboard.css" />
         <option value="$PROJECT_DIR$/static/admin/css/responsive.css" />
         <option value="$PROJECT_DIR$/static/admin/css/login.css" />
-        <option value="$PROJECT_DIR$/dailyfresh/settings/production.py" />
         <option value="$PROJECT_DIR$/dailyfresh/settings/base.py" />
         <option value="$PROJECT_DIR$/dailyfresh/settings/development.py" />
+        <option value="$PROJECT_DIR$/dailyfresh/settings/production.py" />
+        <option value="$PROJECT_DIR$/utils/fdfs/client_production.conf" />
       </list>
     </option>
   </component>
@@ -237,6 +257,28 @@
               <item name="dailyfreshTow" type="b2602c69:ProjectViewProjectNode" />
               <item name="dailyfreshTow" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dailyfreshTow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailyfreshTow" type="462c0819:PsiDirectoryNode" />
+              <item name="dailyfresh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dailyfreshTow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailyfreshTow" type="462c0819:PsiDirectoryNode" />
+              <item name="dailyfresh" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dailyfreshTow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailyfreshTow" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dailyfreshTow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailyfreshTow" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="fdfs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -245,7 +287,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="resolvers&#9;FILE&#9;file:///home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/urls/resolvers.py" />
+    <property name="SearchEverywhereHistoryKey" value="is_po&#9;null&#9;null&#10;resolvers&#9;FILE&#9;file:///home/pybzdxhsyysqzm/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/urls/resolvers.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -398,20 +440,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/user_center_info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user_center_site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -567,13 +595,6 @@
     <entry file="file://$PROJECT_DIR$/db/base_model.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/fdfs/client.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/huanjing.txt" />
     <entry file="file://$PROJECT_DIR$/huanjing.text">
       <provider selected="true" editor-type-id="text-editor">
@@ -591,20 +612,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="132" column="53" lean-forward="true" selection-start-line="132" selection-start-column="53" selection-end-line="132" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/fdfs/storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/fdfs/client_production.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
@@ -687,16 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dailyfresh/settings/production.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="46" />
-          <folding>
-            <element signature="e#330#339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dailyfresh/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -704,13 +701,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fdfs/client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-745">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dailyfresh/settings/development.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
           <folding>
             <element signature="e#331#340#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fdfs/client_production.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyfresh/settings/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding>
+            <element signature="e#330#339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fdfs/storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/contrib/admin/views/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1672">
+          <caret line="91" column="11" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
         </state>
       </provider>
     </entry>

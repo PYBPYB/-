@@ -22,7 +22,7 @@ from .base import *
 SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -33,7 +33,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 FDFS_CLIENT_CONF = './utils/fdfs/client_production.conf'
 
 # 设置fdfs存储服务器上nginx的IP和端口号
-FDFS_URL = 'http://47.100.227.176:8888/'
+FDFS_URL = 'http://172.16.9.118:8888/'
 
 DATABASES = {
     'default': {

@@ -2,9 +2,7 @@ from django.core.files.storage import Storage
 from django.conf import settings
 from fdfs_client.client import Fdfs_client
 
-
 # 默认的系统存储 FileStronge
-
 
 class FDFSStorage(Storage):
 
