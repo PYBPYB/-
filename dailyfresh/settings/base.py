@@ -50,8 +50,7 @@ ROOT_URLCONF = 'dailyfresh.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -127,7 +126,6 @@ TINYMCE_DEFAULT_CONFIG = {
 # 配置登录url地址  判断用户是否登录时，重定向自定义到以下地址
 # /accounts/login？next=/user
 LOGIN_URL = '/user/login'
-
 # FastDFS设置-自定义存储的类
 DEFAULT_FILE_STORAGE = 'utils.fdfs.storage.FDFSStorage'
 
