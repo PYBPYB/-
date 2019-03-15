@@ -26,7 +26,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '192.168.85.130',
+    '192.168.85.128',
     '127.0.0.1',
 ]
 
