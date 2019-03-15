@@ -49,9 +49,8 @@ CACHES = {
     }
 }
 
-# 收集静态文件
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
+# 收集静态文件到这个文件夹
+STATIC_ROOT = '/home/admin/WORKON_HOME/Dailyfresh/static/'
 
 # FastDFS设置-客户端配置文件
 FDFS_CLIENT_CONF = './utils/fdfs/client_production.conf'
