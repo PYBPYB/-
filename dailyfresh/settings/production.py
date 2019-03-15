@@ -22,7 +22,7 @@ from .base import *
 SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -80,7 +80,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': '/home/admin/dailyfresh_debug.log',  # 日志文件存放位置
+            'filename': '/home/admin/dailyfresh_debug/dailyfresh_debug.log',  # 日志文件存放位置
         },
     # 重大错误，发送邮件给管理员
     'mail_admins': {
