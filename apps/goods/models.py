@@ -16,6 +16,8 @@ class GoodsType(BaseModel):
         verbose_name_plural = verbose_name
 
     def __str__(self):
+        if self.name == None:
+            return "ERROR-CUSTOMER NAME IS NULL"
         return self.name
 
 # 商品详细信息模型类
@@ -42,6 +44,8 @@ class GoodsSKU(BaseModel):
         verbose_name_plural = verbose_name
 
     def __str__(self):
+        if self.name == None:
+            return "ERROR-CUSTOMER NAME IS NULL"
         return self.name
 
 class Goods(BaseModel):
@@ -56,6 +60,8 @@ class Goods(BaseModel):
         verbose_name_plural = verbose_name
 
     def __str__(self):
+        if self.name == None:
+            return "ERROR-CUSTOMER NAME IS NULL"
         return self.name
 
 
@@ -70,7 +76,9 @@ class GoodsImage(BaseModel):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.sku.name
+        if self.name == None:
+            return "ERROR-CUSTOMER NAME IS NULL"
+        return self.name
 
 
 class IndexGoodsBanner(BaseModel):
@@ -85,7 +93,9 @@ class IndexGoodsBanner(BaseModel):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.sku.name
+        if self.name == None:
+            return "ERROR-CUSTOMER NAME IS NULL"
+        return self.name
 
 
 class IndexTypeBanner(BaseModel):
@@ -105,7 +115,9 @@ class IndexTypeBanner(BaseModel):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.sku.name
+        if self.name == None:
+            return "ERROR-CUSTOMER NAME IS NULL"
+        return self.name
 
 
 class IndexPromotionBanner(BaseModel):
@@ -121,5 +133,7 @@ class IndexPromotionBanner(BaseModel):
         verbose_name_plural = verbose_name
 
     def __str__(self):
+        if self.name == None:
+            return "ERROR-CUSTOMER NAME IS NULL"
         return self.name
 
