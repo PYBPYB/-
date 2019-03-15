@@ -29,12 +29,6 @@ ALLOWED_HOSTS = [
     '192.168.85.130',
     '127.0.0.1',
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-# 静态文件目录
-STATIC_URL = '/static/'
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
 
 DATABASES = {
     'default': {

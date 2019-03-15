@@ -5,62 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/apps/order/views.py" line="152" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a012f9e-1e3c-46db-ae8e-6e9bff18c805" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dailyfresh/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyfresh/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/dump.rdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/adv01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/adv02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/banner01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/banner02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/banner03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/banner04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/banner05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/banner06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/fruit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods008.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods009.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods011.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods012.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods015.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods016.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods018.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods/goods021.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/goods_detail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/icons02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/interval_line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/left_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/login_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/logo02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/pay_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/register_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/shop_cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slide.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slide02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slide03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/slide04.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="4a012f9e-1e3c-46db-ae8e-6e9bff18c805" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,14 +61,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="69" />
+          <entry key="Python Console" value="80" />
           <entry key="conf" value="23" />
           <entry key="dummy" value="17" />
           <entry key="html" value="14863" />
           <entry key="ini" value="522" />
           <entry key="log" value="3" />
           <entry key="pem" value="7" />
-          <entry key="py" value="20108" />
+          <entry key="py" value="20171" />
           <entry key="txt" value="436" />
         </counts>
       </usages-collector>
@@ -133,27 +78,27 @@
           <entry key="Ini" value="522" />
           <entry key="Log" value="2" />
           <entry key="PLAIN_TEXT" value="484" />
-          <entry key="Python" value="20177" />
+          <entry key="Python" value="20251" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dailyfresh/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-308">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="272">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dailyfresh/settings/development.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+              <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding>
                 <element signature="e#331#340#0" expanded="true" />
               </folding>
@@ -164,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dailyfresh/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+            <state relative-caret-position="242">
+              <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="46" />
               <folding>
                 <element signature="e#330#339#0" expanded="true" />
               </folding>
@@ -231,16 +176,16 @@
         <option value="$PROJECT_DIR$/utils/fdfs/client.conf" />
         <option value="$PROJECT_DIR$/utils/fdfs/storage.py" />
         <option value="$PROJECT_DIR$/utils/fdfs/client_production.conf" />
-        <option value="$PROJECT_DIR$/dailyfresh/settings/development.py" />
         <option value="$PROJECT_DIR$/dailyfresh/urls.py" />
         <option value="$PROJECT_DIR$/uwsgi.ini" />
         <option value="$PROJECT_DIR$/celery_tasks/tasks.py" />
-        <option value="$PROJECT_DIR$/dailyfresh/settings/production.py" />
         <option value="$PROJECT_DIR$/static/admin/css/base.css" />
         <option value="$PROJECT_DIR$/static/admin/css/dashboard.css" />
         <option value="$PROJECT_DIR$/static/admin/css/responsive.css" />
         <option value="$PROJECT_DIR$/static/admin/css/login.css" />
+        <option value="$PROJECT_DIR$/dailyfresh/settings/production.py" />
         <option value="$PROJECT_DIR$/dailyfresh/settings/base.py" />
+        <option value="$PROJECT_DIR$/dailyfresh/settings/development.py" />
       </list>
     </option>
   </component>
@@ -287,11 +232,6 @@
             <path>
               <item name="dailyfreshTow" type="b2602c69:ProjectViewProjectNode" />
               <item name="dailyfreshTow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dailyfreshTow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dailyfreshTow" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -389,7 +329,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="997" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20016207" />
@@ -744,10 +683,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dailyfresh/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dailyfresh/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+        <state relative-caret-position="242">
+          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="46" />
           <folding>
             <element signature="e#330#339#0" expanded="true" />
           </folding>
@@ -757,17 +703,10 @@
     <entry file="file://$PROJECT_DIR$/dailyfresh/settings/development.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding>
             <element signature="e#331#340#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailyfresh/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
