@@ -15,6 +15,9 @@ class GoodsType(BaseModel):
         verbose_name = '商品种类'
         verbose_name_plural = verbose_name
 
+    def __str__(self):
+        return '%s %s' % (self.name, self.logo)
+
 
 # 商品详细信息模型类
 class GoodsSKU(BaseModel):
@@ -39,6 +42,9 @@ class GoodsSKU(BaseModel):
         verbose_name = '商品'
         verbose_name_plural = verbose_name
 
+    def __str__(self):
+        return '%s %s' % (self.name, self.type.name)
+
 class Goods(BaseModel):
     '''商品SPU模型'''
     name = models.CharField(max_length=20, verbose_name='商品SPU名称')
@@ -49,6 +55,9 @@ class Goods(BaseModel):
         db_table = 'df_goods'
         verbose_name = '商品SPU'
         verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return '%s ' % self.name
 
 
 
@@ -61,6 +70,9 @@ class GoodsImage(BaseModel):
         db_table = 'df_goods_image'
         verbose_name = '商品图片'
         verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return '%s %s' % (self.sku.name, self.image)
 
 
 
@@ -75,6 +87,9 @@ class IndexGoodsBanner(BaseModel):
         db_table = 'df_index_banner'
         verbose_name = '首页轮播商品'
         verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return '%s %s' % (self.sku.name, self.index)
 
 
 
@@ -95,6 +110,9 @@ class IndexTypeBanner(BaseModel):
         verbose_name = '主页分类展示商品'
         verbose_name_plural = verbose_name
 
+    def __str__(self):
+        return '%s %s' % (self.sku.name, self.index)
+
 
 class IndexPromotionBanner(BaseModel):
     '''首页促销活动模型类'''
@@ -107,6 +125,9 @@ class IndexPromotionBanner(BaseModel):
         db_table = 'df_index_promotion'
         verbose_name = '主页促销活动'
         verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return '%s %s' % (self.name, self.index)
 
 
 
