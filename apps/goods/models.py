@@ -15,10 +15,6 @@ class GoodsType(BaseModel):
         verbose_name = '商品种类'
         verbose_name_plural = verbose_name
 
-    def __str__(self):
-        if self.name == None:
-            return "ERROR-CUSTOMER NAME IS NULL"
-        return str(self.name).encode('utf8')
 
 # 商品详细信息模型类
 class GoodsSKU(BaseModel):
