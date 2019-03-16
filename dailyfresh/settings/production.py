@@ -102,3 +102,6 @@ LOGGING = {
 
     },
 }
+
+# Celery 启动配置文件
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dailyfresh.settings.production')

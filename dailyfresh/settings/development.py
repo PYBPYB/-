@@ -74,3 +74,7 @@ EMAIL_PORT = 465
 EMAIL_HOST_USER = '2679771017@qq.com'  # 帐号
 EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']  # 密码
 EMAIL_FROM = '天天生鲜<2679771017@qq.com>'
+
+
+# Celery 启动配置文件
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dailyfresh.settings.development')
