@@ -31,7 +31,8 @@ class FDFSStorage(Storage):
         # 上传文件到fast dfs系统中
         res = client.upload_by_buffer(content.read())
 
-        # print('res----------------------------->>>>>>>', res)
+
+        print('res----------------------------->>>>>>>', res)
         # 返回的数据格式
 
         # {
