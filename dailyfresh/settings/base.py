@@ -126,8 +126,6 @@ TINYMCE_DEFAULT_CONFIG = {
 # /accounts/login？next=/user
 LOGIN_URL = '/user/login'
 
-# FastDFS设置-自定义存储的类
-DEFAULT_FILE_STORAGE = 'utils.fdfs.storage.FDFSStorage'
 
 
 # 全文检索框架的配置

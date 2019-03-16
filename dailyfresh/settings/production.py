@@ -29,8 +29,11 @@ ALLOWED_HOSTS = ['*']
 # 收集静态文件到这个文件夹
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+# FastDFS设置-自定义存储的类
+DEFAULT_FILE_STORAGE = 'dailyfresh.utils.fdfs.storage.FDFSStorage'
+
 # FastDFS设置-客户端配置文件
-FDFS_CLIENT_CONF = './utils/fdfs/client_production.conf'
+FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fdfs/client_production.conf')
 
 # 设置fdfs存储服务器上nginx的IP和端口号
 FDFS_URL = 'http://47.100.227.176:8888/'
@@ -102,6 +105,3 @@ LOGGING = {
 
     },
 }
-
-# Celery 启动配置文件
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dailyfresh.settings.production')

@@ -52,11 +52,16 @@ CACHES = {
     }
 }
 
+# FastDFS设置-自定义存储的类
+DEFAULT_FILE_STORAGE = 'utils.fdfs.storage.FDFSStorage'
+
 # FastDFS设置-客户端配置文件
 FDFS_CLIENT_CONF = './utils/fdfs/client.conf'
 
 # 设置fdfs存储服务器上nginx的IP和端口号
 FDFS_URL = 'http://127.0.0.1:8888/'
+
+
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -75,6 +80,3 @@ EMAIL_HOST_USER = '2679771017@qq.com'  # 帐号
 EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']  # 密码
 EMAIL_FROM = '天天生鲜<2679771017@qq.com>'
 
-
-# Celery 启动配置文件
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dailyfresh.settings.development')
