@@ -13,7 +13,7 @@ class FDFSStorage(Storage):
         self.base_url = settings.FDFS_URL
 
     # 打开文件时使用
-    def _open(self, name, mode='rb'):
+    def _open(self, name, mode='r'):
         pass
 
     # 保存文件时使用
