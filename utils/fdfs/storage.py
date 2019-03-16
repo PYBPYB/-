@@ -50,7 +50,7 @@ class FDFSStorage(Storage):
         # 获取返回的文件ID(一定要记得修改文件格式为‘utf8’)
         # 不同系统文件上传格式不一样。。
 
-        filename = res.get(b'Remote file_id')
+        filename = res.get('Remote file_id')
         return filename
 
     # Django判断文件名是否可用
