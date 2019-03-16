@@ -52,6 +52,7 @@ class FDFSStorage(Storage):
         # 不同系统文件上传格式不一样。。
 
         filename = res.get('Remote file_id'.encode('utf8'))
+        print('----------',filename)
         return filename
 
     # Django判断文件名是否可用
