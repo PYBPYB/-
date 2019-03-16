@@ -30,7 +30,7 @@ ALLOWED_HOSTS = ['*']
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # FastDFS设置-客户端配置文件
-FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fdfs/production_client.conf')
+FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fdfs/client/production_client.conf')
 
 # 设置fdfs存储服务器上nginx的IP和端口号
 FDFS_URL = 'http://47.100.227.176:8888/'

@@ -53,7 +53,7 @@ CACHES = {
 }
 
 # FastDFS设置-客户端配置文件
-FDFS_CLIENT_CONF = './utils/fdfs/development_client.conf'
+FDFS_CLIENT_CONF = './utils/fdfs/client/development_client.conf'
 
 # 设置fdfs存储服务器上nginx的IP和端口号
 FDFS_URL = 'http://127.0.0.1:8888/'
