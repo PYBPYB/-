@@ -9,24 +9,24 @@ class BaseModeAdmin(admin.ModelAdmin):
     def save_model(self, request, obj, form, change):
         super().save_model(request, obj, form, change)
 
-        # 发出任务，让celery worker 重新生成首页静态页面(异步  管理员界面直接跳转，不会卡顿)
-        from celery_tasks.tasks import generate_static_index_html
-        generate_static_index_html.delay()
-
-        # 请除首页的缓存数据
-        cache.delete('index_page_data')
+        # # 发出任务，让celery worker 重新生成首页静态页面(异步  管理员界面直接跳转，不会卡顿)
+        # from celery_tasks.tasks import generate_static_index_html
+        # generate_static_index_html.delay()
+        #
+        # # 请除首页的缓存数据
+        # cache.delete('index_page_data')
 
 
     # 删除表中数据时被调用
     def delete_model(self, request, obj):
         super().delete_model(request, obj)
-
-        # 发出任务，让celery worker 重新生成首页静态页面(异步  管理员界面直接跳转，不会卡顿)
-        from celery_tasks.tasks import generate_static_index_html
-        generate_static_index_html.delay()
-
-        # 请除首页的缓存数据
-        cache.delete('index_page_data')
+        #
+        # # 发出任务，让celery worker 重新生成首页静态页面(异步  管理员界面直接跳转，不会卡顿)
+        # from celery_tasks.tasks import generate_static_index_html
+        # generate_static_index_html.delay()
+        #
+        # # 请除首页的缓存数据
+        # cache.delete('index_page_data')
 
 class GoodsAdmin(BaseModeAdmin):
     pass
