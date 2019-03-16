@@ -18,7 +18,7 @@ class GoodsType(BaseModel):
     def __str__(self):
         if self.name == None:
             return "ERROR-CUSTOMER NAME IS NULL"
-        return str(self.name)
+        return str(self.name).encode('utf8')
 
 # 商品详细信息模型类
 class GoodsSKU(BaseModel):
@@ -46,7 +46,7 @@ class GoodsSKU(BaseModel):
     def __str__(self):
         if self.name == None:
             return "ERROR-CUSTOMER NAME IS NULL"
-        return str(self.name)
+        return str(self.name).encode('utf8')
 
 class Goods(BaseModel):
     '''商品SPU模型'''
@@ -62,7 +62,7 @@ class Goods(BaseModel):
     def __str__(self):
         if self.name == None:
             return "ERROR-CUSTOMER NAME IS NULL"
-        return str(self.name)
+        return str(self.name).encode('utf8')
 
 
 class GoodsImage(BaseModel):
@@ -78,7 +78,7 @@ class GoodsImage(BaseModel):
     def __str__(self):
         if self.sku.name == None:
             return "ERROR-CUSTOMER NAME IS NULL"
-        return str(self.sku.name)
+        return str(self.sku.name).encode('utf8')
 
 
 class IndexGoodsBanner(BaseModel):
@@ -95,7 +95,7 @@ class IndexGoodsBanner(BaseModel):
     def __str__(self):
         if self.sku.name == None:
             return "ERROR-CUSTOMER NAME IS NULL"
-        return str(self.sku.name)
+        return str(self.sku.name).encode('utf8')
 
 
 class IndexTypeBanner(BaseModel):
@@ -117,7 +117,7 @@ class IndexTypeBanner(BaseModel):
     def __str__(self):
         if self.sku.name == None:
             return "ERROR-CUSTOMER NAME IS NULL"
-        return str(self.sku.name)
+        return str(self.sku.name).encode('utf8')
 
 
 class IndexPromotionBanner(BaseModel):
@@ -135,5 +135,5 @@ class IndexPromotionBanner(BaseModel):
     def __str__(self):
         if self.name == None:
             return "ERROR-CUSTOMER NAME IS NULL"
-        return str(self.name)
+        return str(self.name).encode('utf8')
 
