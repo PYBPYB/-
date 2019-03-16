@@ -6,9 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a012f9e-1e3c-46db-ae8e-6e9bff18c805" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dailyfresh/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyfresh/settings/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dailyfresh/settings/development.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyfresh/settings/development.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dailyfresh/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyfresh/settings/production.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/dump.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/fdfs/client.conf" beforeDir="false" afterPath="$PROJECT_DIR$/utils/fdfs/development/client.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
           <entry key="pem" value="8" />
           <entry key="pid" value="1" />
           <entry key="png" value="4" />
-          <entry key="py" value="499" />
+          <entry key="py" value="504" />
           <entry key="rdb" value="3" />
           <entry key="text" value="3" />
           <entry key="txt" value="39" />
@@ -61,7 +62,7 @@
           <entry key="Ini" value="8" />
           <entry key="Log" value="10" />
           <entry key="PLAIN_TEXT" value="83" />
-          <entry key="Python" value="499" />
+          <entry key="Python" value="504" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -73,7 +74,7 @@
           <entry key="ini" value="522" />
           <entry key="log" value="3" />
           <entry key="pem" value="7" />
-          <entry key="py" value="20486" />
+          <entry key="py" value="20530" />
           <entry key="txt" value="440" />
         </counts>
       </usages-collector>
@@ -83,18 +84,18 @@
           <entry key="Ini" value="522" />
           <entry key="Log" value="2" />
           <entry key="PLAIN_TEXT" value="518" />
-          <entry key="Python" value="20581" />
+          <entry key="Python" value="20625" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/fdfs/storage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="-274">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -102,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dailyfresh/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="127">
+              <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding>
                 <element signature="e#330#339#0" expanded="true" />
               </folding>
@@ -115,22 +116,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dailyfresh/settings/development.py">
+        <entry file="file://$PROJECT_DIR$/dailyfresh/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-              <folding>
-                <element signature="e#331#340#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="320">
+              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dailyfresh/settings/base.py">
+        <entry file="file://$PROJECT_DIR$/dailyfresh/settings/development.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+            <state relative-caret-position="290">
+              <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+              <folding>
+                <element signature="e#331#340#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,7 +193,6 @@
         <option value="$PROJECT_DIR$/z_information/启动方式.txt" />
         <option value="$PROJECT_DIR$/utils/fdfs/client.conf" />
         <option value="$PROJECT_DIR$/utils/fdfs/client_production.conf" />
-        <option value="$PROJECT_DIR$/dailyfresh/settings/base.py" />
         <option value="$PROJECT_DIR$/templates/static_index.html" />
         <option value="$PROJECT_DIR$/celery_tasks/tasks_production.py" />
         <option value="$PROJECT_DIR$/celery_tasks/tasks_development.py" />
@@ -202,6 +202,7 @@
         <option value="$PROJECT_DIR$/apps/goods/admin.py" />
         <option value="$PROJECT_DIR$/utils/fdfs/storage.py" />
         <option value="$PROJECT_DIR$/dailyfresh/settings/production.py" />
+        <option value="$PROJECT_DIR$/dailyfresh/settings/base.py" />
         <option value="$PROJECT_DIR$/dailyfresh/settings/development.py" />
       </list>
     </option>
@@ -368,13 +369,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="997" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26580226" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4971335" visible="true" weight="0.33679354" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4971335" visible="true" weight="0.4025375" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5028665" side_tool="true" weight="0.38551402" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.5017301" />
@@ -434,7 +434,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app_private_key.pem" />
     <entry file="file://$PROJECT_DIR$/db/base_model.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -653,16 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-682">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/goods/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -695,7 +684,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/fdfs/client.conf">
+    <entry file="file://$PROJECT_DIR$/utils/fdfs/development/client.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
@@ -706,13 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-600">
           <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/core/files/storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -741,20 +723,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dailyfresh/settings/production.py">
+    <entry file="file://$USER_HOME$/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/core/files/storage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="110">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/dailyfreshTow/lib/python3.6/site-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1194">
+          <caret line="1090" column="18" lean-forward="true" selection-start-line="1090" selection-start-column="18" selection-end-line="1090" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="28" />
           <folding>
-            <element signature="e#330#339#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fdfs/storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dailyfresh/settings/development.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="290">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
           <folding>
             <element signature="e#331#340#0" expanded="true" />
           </folding>
@@ -763,17 +769,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dailyfresh/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+        <state relative-caret-position="320">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/fdfs/storage.py">
+    <entry file="file://$PROJECT_DIR$/dailyfresh/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="127">
+          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#330#339#0" expanded="true" />
           </folding>
         </state>
       </provider>

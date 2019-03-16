@@ -29,11 +29,8 @@ ALLOWED_HOSTS = ['*']
 # 收集静态文件到这个文件夹
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-# FastDFS设置-自定义存储的类
-DEFAULT_FILE_STORAGE = 'Dailyfresh.utils.fdfs.storage.FDFSStorage'
-
 # FastDFS设置-客户端配置文件
-FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fdfs/client_production.conf')
+FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fdfs/production_client.conf')
 
 # 设置fdfs存储服务器上nginx的IP和端口号
 FDFS_URL = 'http://47.100.227.176:8888/'
