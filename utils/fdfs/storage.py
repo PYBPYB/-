@@ -34,7 +34,6 @@ class FDFSStorage(Storage):
 
         print('res----------------------------->>>>>>>', res)
         # 返回的数据格式
-
         # {
         #     'Uploaded size': '9.69KB',
         #     'Storage IP': b'192.168.12.189',
@@ -44,15 +43,20 @@ class FDFSStorage(Storage):
         #     'Remote file_id': b'group1/M00/00/00/wKgMvVvHKzeAFiJkAAAmv27pX4k7691647'
         # }
 
+        # 可能会返回二进制（bytes）
         if res.get('Status') != 'Upload successed.':
             #上传失败
             raise Exception('上传文件到FastDFS失败')
 
         # 获取返回的文件ID(一定要记得修改文件格式为‘utf8’)
-        # 不同系统文件上传格式不一样。。
+        # 不同系统文件上传格式不一样。
+        # 可能会返回二进制文件
+        try:
+            filename = res.get('Remote file_id').decode()
+        except:
+            filename = res.get('Remote file_id')
 
-        filename = res.get('Remote file_id'.encode('utf8'))
-        print('----------',filename)
+        print('----------filename:', filename)
         return filename
 
     # Django判断文件名是否可用
