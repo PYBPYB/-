@@ -5,7 +5,6 @@ from fdfs_client.client import Fdfs_client
 # 默认的系统存储 FileStronge
 
 class FDFSStorage(Storage):
-
     '''fast dfs文件存储类'''
     def __init__(self):
         '''初始化'''
@@ -19,20 +18,17 @@ class FDFSStorage(Storage):
     # 保存文件时使用
     def _save(self, name, content):
         """
-
         :param name: 你选择上传文件的名字
         :param content: 包含你上传文件内容的File对象
         :return:
         """
-
         # 创建一个Fdfs_client对象
         client = Fdfs_client(self.client_conf)
 
         # 上传文件到fast dfs系统中
         res = client.upload_by_buffer(content.read())
 
-
-        print('res----------------------------->>>>>>>', res)
+        # print('res----------------------------->>>>>>>', res)
         # 返回的数据格式
         # {
         #     'Uploaded size': '9.69KB',
@@ -56,7 +52,7 @@ class FDFSStorage(Storage):
         except:
             filename = res.get('Remote file_id')
 
-        print('----------filename:', filename)
+        # print('----------filename:', filename)
         return filename
 
     # Django判断文件名是否可用

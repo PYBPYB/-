@@ -29,11 +29,8 @@
 		<div class="slide fl">
 			<ul class="slide_pics">
 				{% for goods_banner in goods_banners %} {# 首页轮播商品展示 #}
-				<li>
-					<a href="{% url 'goods:detail' goods_banner.id %}">
+				<li href="{% url 'goods:detail' goods_banner.id %}">
 						<img src="{{ goods_banner.image.url }}" alt="{{goods_banner.sku.name}}">
-					</a>
-
 				</li>
 				{% endfor %}
 			</ul>
@@ -80,19 +77,15 @@
 
     {#网页底部引入文件块#}
 {% block bottomfiles %}
-    <script src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/slide.js' %}"></script>
 	<script type="text/javascript">
 		BCSlideshow('focuspic');
 		var oFruit = document.getElementById('fruit_more');
 		var oShownum = document.getElementById('show_count');
-
 		var hasorder = localStorage.getItem('order_finish');
-
-		if(hasorder)
-		{
+		if(hasorder) {
 			oShownum.innerHTML = '2';
 		}
-
 		oFruit.onclick = function(){
 			window.location.href = 'list.html';
 		}
