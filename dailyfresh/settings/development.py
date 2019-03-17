@@ -56,7 +56,7 @@ CACHES = {
 FDFS_CLIENT_CONF = './utils/fdfs/client/development_client.conf'
 
 # 设置fdfs存储服务器上nginx的IP和端口号
-FDFS_URL = 'http://127.0.0.1:8888/'
+FDFS_URL = 'http://192.168.85.128:8888/'
 
 
 
