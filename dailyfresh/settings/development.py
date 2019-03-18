@@ -30,6 +30,13 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
 ]
 
+
+# FastDFS设置-客户端配置文件
+FDFS_CLIENT_CONF = './utils/fdfs/client/development_client.conf'
+
+# 设置fdfs存储服务器上nginx的IP和端口号
+FDFS_URL = 'http://192.168.85.128:8888/'
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -52,13 +59,14 @@ CACHES = {
     }
 }
 
-# FastDFS设置-客户端配置文件
-FDFS_CLIENT_CONF = './utils/fdfs/client/development_client.conf'
 
-# 设置fdfs存储服务器上nginx的IP和端口号
-FDFS_URL = 'http://192.168.85.128:8888/'
-
-
+from celery.schedules import crontab
+CELERY_BEAT_SCHEDULE = {
+        'fetch_news_every-1-hour': {
+            'task': 'news.tasks.fetch_all_news',
+            'schedule': crontab(minute=0, hour='*/1'),
+        }
+}
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

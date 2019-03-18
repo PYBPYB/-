@@ -10,7 +10,7 @@ class BaseModeAdmin(admin.ModelAdmin):
         super().save_model(request, obj, form, change)
 
         # 发出任务，让celery worker 重新生成首页静态页面(异步  管理员界面直接跳转，不会卡顿)
-        from celery_tasks.development_tasks import generate_static_index_html
+        from celery_tasks.tasks import generate_static_index_html
         generate_static_index_html.delay()
 
         # 请除首页的缓存数据
@@ -22,7 +22,7 @@ class BaseModeAdmin(admin.ModelAdmin):
         super().delete_model(request, obj)
 
         # 发出任务，让celery worker 重新生成首页静态页面(异步  管理员界面直接跳转，不会卡顿)
-        from celery_tasks.development_tasks import generate_static_index_html
+        from celery_tasks.tasks import generate_static_index_html
         generate_static_index_html.delay()
 
         # 请除首页的缓存数据

@@ -12,7 +12,7 @@ from apps.user.models import User, Address
 
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer  # 加密
 from itsdangerous import SignatureExpired
-from celery_tasks.development_tasks import send_register_active_email
+from celery_tasks.tasks import send_register_active_email
 from utils.mixin import LoginRequiredMixin
 from django_redis import get_redis_connection
 import re
