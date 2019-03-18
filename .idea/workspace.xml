@@ -5,7 +5,9 @@
     <bookmark url="file://$PROJECT_DIR$/apps/order/views.py" line="152" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a012f9e-1e3c-46db-ae8e-6e9bff18c805" name="Default Changelist" comment="" />
+    <list default="true" id="4a012f9e-1e3c-46db-ae8e-6e9bff18c805" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/celery_tasks/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/celery_tasks/tasks.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
           <entry key="ini" value="522" />
           <entry key="log" value="4" />
           <entry key="pem" value="7" />
-          <entry key="py" value="21033" />
+          <entry key="py" value="21035" />
           <entry key="txt" value="440" />
         </counts>
       </usages-collector>
@@ -81,7 +83,7 @@
           <entry key="Ini" value="522" />
           <entry key="Log" value="3" />
           <entry key="PLAIN_TEXT" value="530" />
-          <entry key="Python" value="21128" />
+          <entry key="Python" value="21130" />
         </counts>
       </usages-collector>
     </session>
@@ -91,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/celery_tasks/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
                 <element signature="e#1176#2446#0" />
@@ -725,8 +727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/celery_tasks/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#1176#2446#0" />
