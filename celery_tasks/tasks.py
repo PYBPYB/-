@@ -1,10 +1,10 @@
+#!/bin/sh
 from celery import Celery
 from django.conf import settings
 from django.core.mail import send_mail
 from django.template import loader, RequestContext
 
 from django_redis import get_redis_connection
-
 
 # 在任务处理者一端加上这几句,初始化
 import os
