@@ -31,7 +31,7 @@ def send_register_active_email(to_email, username, token):
     html_message = '''
     <h1>%s,欢迎您成为天天生鲜注册会员</h1>
     请点击下面的链接激活您的帐户：<br />
-    <a href='http://47.100.227.176:8000/user/active/%s'>http://47.100.227.176:8000/user/active/%s</a>
+    <a href='http://47.100.227.176/user/active/%s'>http://47.100.227.176/user/active/%s</a>
     ''' % (username, token, token)
     # 标题 正文（非html文件） 发件人邮箱 收件人列表 正文（html文件）
     send_mail(sbuject, message, sender, receiver, html_message=html_message)
