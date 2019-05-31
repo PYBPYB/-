@@ -48,7 +48,7 @@ DATABASES = {
     }
 }
 
-# gjango 的缓存配置
+# django 的缓存配置
 CACHES = {
     'default': {
         'BACKEND': 'django_redis.cache.RedisCache',
@@ -59,14 +59,14 @@ CACHES = {
     }
 }
 
-
-from celery.schedules import crontab
-CELERY_BEAT_SCHEDULE = {
-        'fetch_news_every-1-hour': {
-            'task': 'news.tasks.fetch_all_news',
-            'schedule': crontab(minute=0, hour='*/1'),
-        }
-}
+#
+# from celery.schedules import crontab
+# CELERY_BEAT_SCHEDULE = {
+#         'fetch_news_every-1-hour': {
+#             'task': 'news.tasks.fetch_all_news',
+#             'schedule': crontab(minute=0, hour='*/1'),
+#         }
+# }
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

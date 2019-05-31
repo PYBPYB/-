@@ -18,7 +18,7 @@ from django.urls import re_path, include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path(r'^tinymce/', include('tinymce.urls')),  # 富文本编辑器
+    path('tinymce', include('tinymce.urls')),  # 富文本编辑器
     re_path(r'^search', include('haystack.urls'), name='haystack_search'),  # 全文检索框架
     re_path(r'^user/', include(('apps.user.urls', 'apps'), namespace='user')),  # 用户模块
     re_path(r'^order/', include(('apps.order.urls', 'apps'), namespace='order')),  # 订单模块
